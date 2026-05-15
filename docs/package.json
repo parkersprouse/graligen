@@ -91,6 +91,6 @@
   "devDependencies": {
     "gatsby-plugin-remove-trailing-slashes": "^2.2.4",
     "gatsby-plugin-sass": "^2.2.1",
-    "prettier": "^1.19.1"
+    "prettier": "^3.8.3"
   }
 }
