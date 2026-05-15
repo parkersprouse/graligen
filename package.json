@@ -1,7 +1,9 @@
 {
   "name": "graligen",
-  "version": "0.0.1",
   "description": "A clean, grayish CSS library",
+  "version": "0.0.1",
+  "homepage": "https://parkersprouse.me/graligen",
+  "license": "MIT",
   "main": "dist/gralig.css",
   "targets": {
     "main": false
@@ -27,20 +29,18 @@
       "email": "erenguldas@gmail.com"
     }
   ],
-  "homepage": "https://parkersprouse.me/graligen",
-  "license": "MIT",
   "keywords": [
-    "clean design",
     "clean css",
-    "css",
+    "clean design",
     "css library",
+    "css",
+    "frontend",
     "gray",
     "grayish",
+    "minimal",
     "pure",
     "simplistic",
-    "frontend",
-    "ui",
-    "minimal"
+    "ui"
   ],
   "scripts": {
     "start": "run-p clean:dev serve",

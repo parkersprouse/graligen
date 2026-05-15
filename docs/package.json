@@ -1,18 +1,51 @@
 {
-  "name": "gralig-website",
+  "name": "graligen-docs",
   "private": true,
-  "description": "A clean, grayish CSS Library",
-  "version": "1.0.0",
+  "description": "The docs site for the Graligen CSS library",
+  "version": "0.0.1",
+  "homepage": "https://parkersprouse.me/graligen",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/erenesto/gralig-website.git"
+    "url": "git+https://github.com/parkersprouse/graligen.git"
   },
   "bugs": {
-    "url": "https://github.com/erenesto/gralig-website/issues"
+    "url": "https://github.com/parkersprouse/graligen/issues"
   },
   "author": {
-    "name": "Eren Guldas",
-    "email": "erenguldas@gmail.com"
+    "name": "Parker Sprouse",
+    "email": "parker@parkersprouse.me"
+  },
+  "contributors": [
+    {
+      "name": "Parker Sprouse",
+      "email": "parker@parkersprouse.me"
+    },
+    {
+      "name": "Eren Guldas",
+      "email": "erenguldas@gmail.com"
+    }
+  ],
+  "keywords": [
+    "clean css",
+    "clean design",
+    "css library",
+    "css",
+    "frontend",
+    "gray",
+    "grayish",
+    "minimal",
+    "pure",
+    "simplistic",
+    "ui"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run clean && npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "deepmerge": "^4.2.2",
@@ -59,27 +92,5 @@
     "gatsby-plugin-remove-trailing-slashes": "^2.2.4",
     "gatsby-plugin-sass": "^2.2.1",
     "prettier": "^1.19.1"
-  },
-  "keywords": [
-    "clean design",
-    "clean css",
-    "css",
-    "css library",
-    "gray",
-    "grayish",
-    "pure",
-    "simplistic",
-    "frontend",
-    "ui",
-    "minimal"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run clean && npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
   }
 }
