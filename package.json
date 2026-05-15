@@ -1,6 +1,6 @@
 {
-  "name": "gralig",
-  "version": "1.1.1",
+  "name": "graligen",
+  "version": "0.0.1",
   "description": "A clean, grayish CSS library",
   "main": "dist/gralig.css",
   "targets": {
@@ -8,16 +8,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/erenesto/gralig.git"
+    "url": "git+https://github.com/parkersprouse/graligen.git"
   },
   "bugs": {
-    "url": "https://github.com/erenesto/gralig/issues"
+    "url": "https://github.com/parkersprouse/graligen/issues"
   },
   "author": {
-    "name": "Eren Guldas",
-    "email": "erenguldas@gmail.com"
+    "name": "Parker Sprouse",
+    "email": "parker@parkersprouse.me"
   },
-  "homepage": "https://gralig.com",
+  "contributors": [
+    {
+      "name": "Parker Sprouse",
+      "email": "parker@parkersprouse.me"
+    },
+    {
+      "name": "Eren Guldas",
+      "email": "erenguldas@gmail.com"
+    }
+  ],
+  "homepage": "https://parkersprouse.me/graligen",
   "license": "MIT",
   "keywords": [
     "clean design",

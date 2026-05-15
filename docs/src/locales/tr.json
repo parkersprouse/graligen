@@ -1,0 +1,104 @@
+{
+  "title": "Gralig CSS",
+  "description": "Sade, grimsi CSS Kütüphanesi",
+  "summary": "Gralig sade, gri tonlu bir CSS kütüphanesi. Bu kütüphaneyi başlangıç yardımcınız olarak kullanabilirsiniz.",
+  "author": "@erenesto",
+  "keywords": "css, css kütüphanesi, frontend, ui, tasarım, gri, basit css",
+  "pages": {
+    "index": "Gralig CSS",
+    "docs": "Gralig Dökümantasyonu",
+    "404": "Hata 404"
+  },
+  "sidenavLinks": {
+    "docs": {
+      "name": "Giriş"
+    },
+    "colors": {
+      "name": "Renkler"
+    },
+    "grid": {
+      "name": "Izgara(Grid)"
+    },
+    "dark": {
+      "name": "Karanlık Mod"
+    },
+    "vars": {
+      "name": "Değişkenler"
+    },
+    "responsive": {
+      "name": "Mobil Uyumluluk"
+    },
+    "utils": {
+      "name": "Yardımcılar"
+    },
+    "typography": {
+      "name": "Tipografi"
+    },
+    "button": {
+      "name": "Buton"
+    },
+    "form": {
+      "name": "Form"
+    },
+    "custom-inputs": {
+      "name": "Özel Inputlar"
+    },
+    "checkbox": {
+      "name": "Onay Butonu"
+    },
+    "radio": {
+      "name": "Radyo Buton"
+    },
+    "switch": {
+      "name": "Anahtar"
+    },
+    "nav": {
+      "name": "Navigasyon"
+    },
+    "navbar": {
+      "name": "Navigasyon Barı"
+    },
+    "footer": {
+      "name": "Altbilgi Barı"
+    },
+    "breadcrumb": {
+      "name": "Gezinti Menüsü"
+    },
+    "card": {
+      "name": "Kart"
+    },
+    "alert": {
+      "name": "Uyarı"
+    },
+    "list": {
+      "name": "Liste"
+    },
+    "table": {
+      "name": "Tablo"
+    },
+    "dropdown": {
+      "name": "Açılır Liste"
+    },
+    "progress": {
+      "name": "İlerleme"
+    },
+    "loading": {
+      "name": "Bekleme"
+    },
+    "modal": {
+      "name": "Açılır Pencere"
+    }
+  },
+  "words": {
+    "copy": "Kopyala",
+    "copied": "Kopyalandı!",
+    "docs": "Döküman",
+    "builtwith": "ile yapıldı."
+  },
+  "404": {
+    "pagenotfound": "Sayfa Bulunamadı",
+    "emptyroute": "Aradığınız sayfa muhtemelen değiştirildi ya da kaldırıldı.",
+    "gotodocs": "Dökümanlara Dön",
+    "gotohome": "Ana Sayfaya Dön"
+  }
+}
