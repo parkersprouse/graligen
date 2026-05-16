@@ -47,6 +47,8 @@ td:not([align]), th:not([align]) {
 }
 
 html {
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
   text-size-adjust: none;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
   font-size: 62.5%;
@@ -1109,7 +1111,7 @@ p, .gra-p {
   position: relative;
 }
 
-@media screen and (min-width: 75em) {
+@media screen and (width >= 75em) {
   .gra-container {
     max-width: 114rem;
   }
@@ -1125,106 +1127,106 @@ p, .gra-p {
   display: flex;
 }
 
-@media screen and (min-width: 37.5em) {
+@media screen and (width >= 37.5em) {
   .row {
-    width: calc(100% + 2.4rem);
     flex-direction: row;
+    width: calc(100% + 2.4rem);
     margin-left: -1.2rem;
   }
 }
 
 .row.row-mobile {
-  width: calc(100% + 2.4rem);
   flex-direction: row;
+  width: calc(100% + 2.4rem);
   margin-left: -1.2rem;
 }
 
 .col {
+  flex: 1 1 0;
   width: 100%;
   max-width: 100%;
-  flex: 1 1 0;
   padding-block: 1.2rem;
   display: block;
 }
 
-@media screen and (min-width: 37.5em) {
+@media screen and (width >= 37.5em) {
   .col {
     padding-inline: 1.2rem;
   }
 
   .col.col-10 {
-    max-width: 10%;
     flex: 0 0 10%;
+    max-width: 10%;
   }
 
   .col.col-16 {
-    max-width: 16.6667%;
     flex: 0 0 16.6667%;
+    max-width: 16.6667%;
   }
 
   .col.col-20 {
-    max-width: 20%;
     flex: 0 0 20%;
+    max-width: 20%;
   }
 
   .col.col-25 {
-    max-width: 25%;
     flex: 0 0 25%;
+    max-width: 25%;
   }
 
   .col.col-30 {
-    max-width: 30%;
     flex: 0 0 30%;
+    max-width: 30%;
   }
 
   .col.col-33 {
-    max-width: 33.3333%;
     flex: 0 0 33.3333%;
+    max-width: 33.3333%;
   }
 
   .col.col-40 {
-    max-width: 40%;
     flex: 0 0 40%;
+    max-width: 40%;
   }
 
   .col.col-50 {
-    max-width: 50%;
     flex: 0 0 50%;
+    max-width: 50%;
   }
 
   .col.col-60 {
-    max-width: 60%;
     flex: 0 0 60%;
+    max-width: 60%;
   }
 
   .col.col-67 {
-    max-width: 66.6667%;
     flex: 0 0 66.6667%;
+    max-width: 66.6667%;
   }
 
   .col.col-70 {
-    max-width: 70%;
     flex: 0 0 70%;
+    max-width: 70%;
   }
 
   .col.col-75 {
-    max-width: 75%;
     flex: 0 0 75%;
+    max-width: 75%;
   }
 
   .col.col-80 {
-    max-width: 80%;
     flex: 0 0 80%;
+    max-width: 80%;
   }
 
   .col.col-84 {
-    max-width: 83.3333%;
     flex: 0 0 83.3333%;
+    max-width: 83.3333%;
   }
 
   .col.col-90 {
-    max-width: 90%;
     flex: 0 0 90%;
+    max-width: 90%;
   }
 
   .col.col-span-10 {
@@ -1293,78 +1295,78 @@ p, .gra-p {
 }
 
 .gra-row.gra-row-mobile .gra-col.col-10 {
-  max-width: 10%;
   flex: 0 0 10%;
+  max-width: 10%;
 }
 
 .gra-row.gra-row-mobile .gra-col.col-16 {
-  max-width: 16.6667%;
   flex: 0 0 16.6667%;
+  max-width: 16.6667%;
 }
 
 .gra-row.gra-row-mobile .gra-col.col-20 {
-  max-width: 20%;
   flex: 0 0 20%;
+  max-width: 20%;
 }
 
 .gra-row.gra-row-mobile .gra-col.col-25 {
-  max-width: 25%;
   flex: 0 0 25%;
+  max-width: 25%;
 }
 
 .gra-row.gra-row-mobile .gra-col.col-30 {
-  max-width: 30%;
   flex: 0 0 30%;
+  max-width: 30%;
 }
 
 .gra-row.gra-row-mobile .gra-col.col-33 {
-  max-width: 33.3333%;
   flex: 0 0 33.3333%;
+  max-width: 33.3333%;
 }
 
 .gra-row.gra-row-mobile .gra-col.col-40 {
-  max-width: 40%;
   flex: 0 0 40%;
+  max-width: 40%;
 }
 
 .gra-row.gra-row-mobile .gra-col.col-50 {
-  max-width: 50%;
   flex: 0 0 50%;
+  max-width: 50%;
 }
 
 .gra-row.gra-row-mobile .gra-col.col-60 {
-  max-width: 60%;
   flex: 0 0 60%;
+  max-width: 60%;
 }
 
 .gra-row.gra-row-mobile .gra-col.col-67 {
-  max-width: 66.6667%;
   flex: 0 0 66.6667%;
+  max-width: 66.6667%;
 }
 
 .gra-row.gra-row-mobile .gra-col.col-70 {
-  max-width: 70%;
   flex: 0 0 70%;
+  max-width: 70%;
 }
 
 .gra-row.gra-row-mobile .gra-col.col-75 {
-  max-width: 75%;
   flex: 0 0 75%;
+  max-width: 75%;
 }
 
 .gra-row.gra-row-mobile .gra-col.col-80 {
-  max-width: 80%;
   flex: 0 0 80%;
+  max-width: 80%;
 }
 
 .gra-row.gra-row-mobile .gra-col.col-84 {
-  max-width: 83.3333%;
   flex: 0 0 83.3333%;
+  max-width: 83.3333%;
 }
 
 .gra-row.gra-row-mobile .gra-col.col-90 {
-  max-width: 90%;
   flex: 0 0 90%;
+  max-width: 90%;
 }
 
 .gra-row.gra-row-mobile .gra-col.col-span-10 {
@@ -1428,7 +1430,6 @@ p, .gra-p {
 }
 
 .gra-btn, .gra-btn:link, .gra-btn:visited {
-  height: 3.8rem;
   color: #fff;
   cursor: pointer;
   letter-spacing: .08rem;
@@ -1442,6 +1443,7 @@ p, .gra-p {
   border-radius: .2rem;
   justify-content: center;
   align-items: center;
+  height: 3.8rem;
   padding-block: 0;
   padding-inline: 3.2rem;
   font-family: inherit;
@@ -1587,11 +1589,11 @@ p, .gra-p {
 }
 
 .gra-alert {
-  min-width: 100%;
-  height: calc(3.1rem - 1px);
   color: #f1f2f3;
   background-color: #727c83;
   border-radius: .2rem;
+  min-width: 100%;
+  height: calc(3.1rem - 1px);
   padding-inline: 3.2rem;
   font-size: 1.4rem;
   line-height: 3.1rem;
@@ -1603,7 +1605,7 @@ p, .gra-p {
   background-color: #8c959b;
 }
 
-@media screen and (min-width: 37.5em) {
+@media screen and (width >= 37.5em) {
   .gra-alert {
     width: 42rem;
     min-width: 42rem;
@@ -1627,11 +1629,11 @@ p, .gra-p {
 }
 
 .gra-card {
-  width: 100%;
-  min-width: 20rem;
   border: 1px solid #d9dcde;
   border-radius: .2rem;
   flex-direction: column;
+  width: 100%;
+  min-width: 20rem;
   margin-bottom: 1.2rem;
   display: flex;
 }
@@ -1726,8 +1728,8 @@ p, .gra-p {
 }
 
 .gra-list-item {
-  width: 100%;
   word-break: break-word;
+  width: 100%;
   padding-block: 1.2rem;
   line-height: 1.2;
   display: flex;
@@ -1742,9 +1744,9 @@ p, .gra-p {
 }
 
 .gra-block-list {
-  height: auto;
   border: 1px solid #d9dcde;
   border-radius: .2rem;
+  height: auto;
   padding-block: 1.6rem;
   padding-inline: 3.2rem;
 }
@@ -1762,9 +1764,9 @@ p, .gra-p {
 }
 
 .gra-table {
+  border-spacing: 0;
   width: 100%;
   min-width: 37.5em;
-  border-spacing: 0;
 }
 
 .gra-table-wrapper {
@@ -1804,10 +1806,10 @@ p, .gra-p {
 
 .gra-modal {
   z-index: 199;
-  width: 52rem;
-  max-width: 52rem;
   background: #fff;
   border-radius: .2rem;
+  width: 52rem;
+  max-width: 52rem;
   transition: all .3s ease-in;
   position: absolute;
   top: 50%;
@@ -1819,7 +1821,7 @@ p, .gra-p {
   background-color: #1f2428;
 }
 
-@media screen and (min-width: 75em) {
+@media screen and (width >= 75em) {
   .gra-modal {
     width: 72rem;
     max-width: 72rem;
@@ -1897,16 +1899,16 @@ p, .gra-p {
 }
 
 img {
+  border-style: none;
   max-width: 100%;
   height: auto;
-  border-style: none;
 }
 
 @supports (object-fit: cover) {
   .gra-object-fit {
+    object-fit: cover;
     width: 100%;
     height: 100%;
-    object-fit: cover;
   }
 }
 
@@ -1943,17 +1945,17 @@ img {
 }
 
 .gra-breadcrumb-item:not(:first-child) > a:before {
-  width: 8px;
-  height: 8px;
   content: "";
   border-bottom: 1px solid #5f676d;
   border-right: 1px solid #5f676d;
+  width: 8px;
+  height: 8px;
   margin-top: -2px;
   display: inline-block;
   position: absolute;
   top: 50%;
   left: -4px;
-  transform: rotate(-45deg)translate(0, -50%);
+  transform: rotate(-45deg) translate(0, -50%);
 }
 
 .dark .gra-breadcrumb-item:not(:first-child) > a:before {
@@ -1993,7 +1995,7 @@ nav {
   position: relative;
 }
 
-@media screen and (min-width: 37.5em) {
+@media screen and (width >= 37.5em) {
   .gra-nav-item {
     font-size: 1.6rem;
   }
@@ -2007,11 +2009,11 @@ nav {
 }
 
 .gra-nav-link:not(.disabled, [disabled]):after {
-  width: 0;
-  height: 0;
   content: "";
   background-color: #5f676d;
   border-radius: 50%;
+  width: 0;
+  height: 0;
   transition: all .15s ease-in;
   position: absolute;
   bottom: 6px;
@@ -2042,9 +2044,9 @@ nav {
 }
 
 .gra-navbar {
+  border-bottom: 1px solid #d9dcde;
   height: 5.6rem;
   min-height: 5.6rem;
-  border-bottom: 1px solid #d9dcde;
   display: flex;
 }
 
@@ -2053,7 +2055,7 @@ nav {
   border-color: #5f676d;
 }
 
-@media screen and (min-width: 37.5em) {
+@media screen and (width >= 37.5em) {
   .gra-navbar {
     height: 7rem;
     max-height: 7rem;
@@ -2066,15 +2068,15 @@ nav {
 }
 
 .gra-navbar-logo {
-  max-width: 9.2rem;
   flex-shrink: 0;
   align-items: stretch;
+  max-width: 9.2rem;
   margin-left: -1.6rem;
   padding-inline: 1.6rem;
   display: flex;
 }
 
-@media screen and (min-width: 37.5em) {
+@media screen and (width >= 37.5em) {
   .gra-navbar-logo {
     max-width: 12rem;
   }
@@ -2093,10 +2095,10 @@ nav {
 }
 
 .gra-progress-bar {
-  width: 100%;
-  height: 1.4rem;
   background-color: #f1f2f3;
   border-radius: .2rem;
+  width: 100%;
+  height: 1.4rem;
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -2115,10 +2117,10 @@ nav {
 }
 
 .gra-progress-bar-value {
-  width: 100%;
-  height: 100%;
   border-radius: inherit;
   background-color: #727c83;
+  width: 100%;
+  height: 100%;
   display: inline-block;
   position: absolute;
   top: 0;
@@ -2218,8 +2220,8 @@ nav {
 }
 
 .gra-progress-circle.gra-loading {
-  width: 100%;
   justify-content: center;
+  width: 100%;
   display: flex;
 }
 
@@ -2276,16 +2278,16 @@ nav {
 }
 
 .gra-loading-dots {
-  width: 100%;
   justify-content: center;
+  width: 100%;
   display: flex;
 }
 
 .gra-loading-dot {
-  width: 1.4rem;
-  height: 1.4rem;
   background: #d9dcde;
   border-radius: .2rem;
+  width: 1.4rem;
+  height: 1.4rem;
   margin-inline: 2px;
   animation-name: progress-dot;
   animation-duration: .8s;
@@ -2346,7 +2348,7 @@ legend {
   text-align: center;
 }
 
-@media screen and (min--moz-device-pixel-ratio: 0) {
+@media screen and (-moz-device-pixel-ratio >= 0) {
   fieldset {
     padding-top: 3.2rem;
     position: relative;
@@ -2417,15 +2419,14 @@ input[type="email"]:disabled:hover, input[type="email"]:disabled:focus, input[ty
 }
 
 input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"] {
-  height: 4.1rem;
-  -webkit-appearance: none;
   appearance: none;
+  height: 4.1rem;
 }
 
 select {
-  height: 4.1rem;
   cursor: pointer;
   border-radius: .2rem;
+  height: 4.1rem;
 }
 
 input[type="search"] {
@@ -2441,12 +2442,12 @@ input[type="search"] {
 }
 
 .gra-search-input:before {
-  width: 1.6rem;
-  height: 1.6rem;
   content: "";
   background-image: url("data:image/svg+xml,%3Csvg width='14' height='15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.643 6.107a3.755 3.755 0 01-3.75 3.75 3.755 3.755 0 01-3.75-3.75 3.755 3.755 0 013.75-3.75 3.755 3.755 0 013.75 3.75zm4.286 6.965c0-.285-.118-.561-.31-.754l-2.871-2.87A5.89 5.89 0 005.893.214 5.89 5.89 0 000 6.106a5.89 5.89 0 009.233 4.855l2.87 2.863c.193.2.47.318.754.318.586 0 1.072-.486 1.072-1.072z' fill='%236F7880'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-size: cover;
+  width: 1.6rem;
+  height: 1.6rem;
   margin-top: -8px;
   padding-left: 1.6rem;
   display: inline-block;
@@ -2512,13 +2513,13 @@ input[type="search"] {
 }
 
 .gra-custom-form-control .gra-custom-form-label:before {
-  width: 1.6rem;
-  height: 1.6rem;
   pointer-events: all;
   -webkit-user-select: none;
   user-select: none;
   border: 1px solid #727c83;
   border-radius: 1px;
+  width: 1.6rem;
+  height: 1.6rem;
   transition: all .15s ease-in;
   top: 3px;
   left: 0;
@@ -2602,15 +2603,15 @@ input[type="search"] {
 }
 
 .gra-checkbox .gra-custom-form-label:after {
-  width: .6rem;
-  height: 1.1rem;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
   border-radius: .2rem;
+  width: .6rem;
+  height: 1.1rem;
   transition: opacity .2s ease-in-out, transform .3s ease-in-out;
   top: 4px;
   left: 5px;
-  transform: rotate(-45deg)scale(0);
+  transform: rotate(-45deg) scale(0);
 }
 
 .dark .gra-checkbox .gra-custom-form-label:after {
@@ -2628,7 +2629,7 @@ input[type="search"] {
 
 .gra-checkbox .gra-custom-form-input:checked ~ .gra-custom-form-label:after {
   opacity: 1;
-  transform: rotate(45deg)scale(1);
+  transform: rotate(45deg) scale(1);
 }
 
 .gra-radio .gra-custom-form-label:before {
@@ -2652,10 +2653,10 @@ input[type="search"] {
 }
 
 .gra-radio .gra-custom-form-input:checked ~ .gra-custom-form-label:after {
-  width: .6rem;
-  height: .6rem;
   opacity: 1;
   background-color: #fff;
+  width: .6rem;
+  height: .6rem;
   top: 8px;
   left: 5px;
   transform: scale(1);
@@ -2670,11 +2671,11 @@ input[type="search"] {
 }
 
 .gra-switch .gra-custom-form-label:before {
-  width: 4.2rem;
-  height: 2rem;
   background-color: #a8aeb3;
   border: 0;
   border-radius: .2rem;
+  width: 4.2rem;
+  height: 2rem;
   top: 1px;
 }
 
@@ -2684,11 +2685,11 @@ input[type="search"] {
 }
 
 .gra-switch .gra-custom-form-label:after {
-  width: 1.4rem;
-  height: 1.4rem;
   opacity: 1;
   border: 1px solid #fff;
   border-radius: .2rem;
+  width: 1.4rem;
+  height: 1.4rem;
   transition: opacity .2s ease-in-out, background-color .2s ease-in, transform .3s ease-in-out;
   top: 4px;
   left: .4rem;
@@ -2738,7 +2739,7 @@ input[type="search"] {
 }
 
 .gra-dropdown[open] .gra-dropdown-btn:after {
-  transform: rotate(-135deg)translate(-2px, -2px);
+  transform: rotate(-135deg) translate(-2px, -2px);
 }
 
 .gra-dropdown[open] .gra-dropdown-btn:hover, .gra-dropdown:not([open]) .gra-dropdown-btn {
@@ -2752,8 +2753,8 @@ input[type="search"] {
 
 .gra-dropdown-list {
   z-index: 99;
-  height: auto;
   background-color: #fff;
+  height: auto;
   position: absolute;
   top: 105%;
   left: 0;
@@ -2787,15 +2788,15 @@ input[type="search"] {
 }
 
 .gra-dropdown-btn:after {
-  width: 8px;
-  height: 8px;
   content: "";
   border-bottom: 1px solid #d9dcde;
   border-right: 1px solid #d9dcde;
+  width: 8px;
+  height: 8px;
   margin-left: 12px;
   transition: all .15s ease-in;
   display: inline-block;
-  transform: rotate(45deg)translate(-2px, -2px);
+  transform: rotate(45deg) translate(-2px, -2px);
 }
 
 .dark .gra-dropdown-btn:after {
@@ -2813,5 +2814,4 @@ input[type="search"] {
 .dark .gra-footer {
   border-color: #5f676d;
 }
-
 /*# sourceMappingURL=gralig.css.map */
