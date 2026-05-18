@@ -37,26 +37,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-      # - name: Detect package manager
-      #   id: detect-package-manager
-      #   run: |
-      #     if [ -f "./yarn.lock" ]; then
-      #       echo "manager=yarn" >> $GITHUB_OUTPUT
-      #       echo "command=install" >> $GITHUB_OUTPUT
-      #       exit 0
-      #     elif [ -f "./package.json" ]; then
-      #       echo "manager=npm" >> $GITHUB_OUTPUT
-      #       echo "command=ci" >> $GITHUB_OUTPUT
-      #       exit 0
-      #     else
-      #       echo "Unable to determine package manager"
-      #       exit 1
-      #     fi
       - name: Setup Node
         uses: actions/setup-node@v6
         with:
           node-version-file: '.nvmrc'
-          # cache: ${{ steps.detect-package-manager.outputs.manager }}
           # cache: pnpm
       - name: Setup Pages
         id: pages
@@ -79,12 +63,10 @@ jobs:
       - name: Install pnpm
         run: npm install -g pnpm@11
       - name: Install dependencies
-        # run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
         run: pnpm install --frozen-lockfile
       - name: Build with Gatsby
         env:
           PREFIX_PATHS: 'true'
-        # run: ${{ steps.detect-package-manager.outputs.manager }} run build
         run: pnpm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
